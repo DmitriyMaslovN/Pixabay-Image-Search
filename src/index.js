@@ -173,14 +173,14 @@ const App = () => {
             width="72"
           />
         </a>
-        <h1 className="text-center ml-5">Pixabay Search</h1>
+        <h1 className="text-center pl-5">Pixabay Image Search</h1>
       </div>
       <Col sm="15" md={{ size: 4, offset: 4 }}>
         <InputGroup>
           <Input
             className="input-text"
             type="text"
-            placeholder="Search images..."
+            placeholder="Search..."
             onChange={handlerInput}
             value={input}
           />
