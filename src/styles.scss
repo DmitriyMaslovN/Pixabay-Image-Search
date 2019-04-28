@@ -1,0 +1,17 @@
+
+ ::-webkit-scrollbar { /* chrome based */
+  width: 0px;  
+}
+html {
+  -ms-overflow-style: none;  /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+  overflow: auto;
+  height: 90vw;
+}
+body{
+  background-image:
+  radial-gradient(
+    circle at bottom right,
+    hsla(10,70%,70%,0.6), hsla(100,100%,50%,0.4)
+  );
+}
